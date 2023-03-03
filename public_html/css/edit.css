@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Toyota Display";
+    src: url('fonts/ToyotaDisplay_Rg.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Toyota Display';
+    color : #131718;
+    color : rgb(19, 23, 24);
+    background-color: white;
+}
+
+/* Header */
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+
+
+.Logo-Toyota{
+    width: 76px;
+    height: 76px;
+    display:inline;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    margin-left: 10px;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: calc(0.5em + 0.8vw);
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.actived{
+    color: rgb(227,4,33);
+    font-weight: 1000;
+}
+
+/* Body */
+
+.form{
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+.input-placa{
+  background : rgba(255, 255, 255, 1);
+  opacity : 0.85;
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+  box-shadow: 4px 5px 10px #838383;
+  padding-left: 1%;
+  box-sizing: border-box;
+
+  width: 50%;
+  height: 40px;
+
+  text-align: left;
+  border: none;
+}
+
+.btn-cupon{
+    width: 163px;
+    height: 38px;
+    background : rgb(0,0,0);
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    border: none;
+    margin-top: 7px;
+    box-shadow: 4px 5px 10px #838383;
+
+    color: rgb(255,255,255);
+    font-weight: bolder;
+}
+
+.btn-update{
+    background: rgb(227,4,33);
+}
+
+.btn-update:hover{
+    background: rgba(227,4,33,0.8);
+}
+
+.btn-update:active{
+    background: rgba(227,4,33,0.6);
+}
+
+
+.btn-find{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.btn-find:hover{
+    background : rgba(0,0,0,0.8);
+}
+
+.btn-find:active{
+    background : rgba(0,0,0,0.6);
+}
+
+.div-info{
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    background: rgb(77,77,77);
+}
+
+.form-update{
+    margin-left: 32%;
+    margin-top: 3%;
+    width: 35%;
+
+}
+
+h4{
+    font-size: 24px;
+    font-weight: 1000;
+    color: rgb(46,41,37);
+
+}
+
+p{
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+h3{
+    color: rgb(227,4,33);
+    font-weight: 1000;
+    font-size: 23px;
+
+}
+
+h5{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+label{
+    font-weight: 1000;
+    font-size: 20px;
+    color: rgb(46,41,37);
+}
+
+.label-placa{
+    border: none;
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(46,41,37);
+}
+
+select{
+  background : rgba(255, 255, 255, 1);
+  opacity : 0.85;
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+
+  border: none;
+  font-size: 20px;
+  font-weight: 1000;
+  box-shadow: 4px 5px 10px #838383;
+  width: 27%;
+  margin-bottom: 1%;
+
+}
+
+.div-estado{
+    margin-bottom: 5%;
+}
+
+.div-message{
+    margin-left: 32%;
+    margin-top: 1%;
+    font-weight: 1000;
+}
+
+.user{
+    margin-bottom: 2%;
+}
+
+.mg-top{
+    margin-top: 2%;
+}
+
+.user{
+    margin-top: 2%;
+}

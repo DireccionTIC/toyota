@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Toyota Display";
+    src: url('fonts/ToyotaDisplay_Rg.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Toyota Display';
+    color : #131718;
+    color : rgb(19, 23, 24);
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/* Header */
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+
+.Logo-Toyota{
+    width: 76px;
+    height: 76px;
+    display:inline;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    margin-left: 10px;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: calc(0.5em + 0.8vw);
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.actived{
+    color: rgb(227,4,33);
+    font-weight: 1000;
+}
+
+/* Body */
+
+
+.button-login{
+    /* Button style */
+    width: 30%;
+    height: 44px;
+    background : rgba(19, 23, 24, 1);
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    margin-bottom: 10px;
+
+    /* Text style */
+    font-weight: bolder;
+    font-family : 'Toyota Display';
+    font-size : 16px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+
+.button-login:hover{
+    background-color: rgba(19, 19, 19, 0.9);
+    cursor: pointer;
+}
+
+.button-login:active{
+    background-color: rgba(19, 19, 19, 0.8);
+    cursor: default;
+}
+.invalid-login{
+    font-weight: bolder;
+    font-family : 'Toyota Display';
+    font-size : 16px;
+}
+
+.input-login::placeholder{
+    color: rgb(51,51,51);
+}
+.input-login{
+    /* Text style */
+    font-weight: bolder;
+    font-size: 16px;
+    /* Input style */
+    width: 30%;
+    height: 44px;
+    background-color: transparent;
+    opacity : 0.85;
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    box-shadow: 4px 5px 10px #838383;
+    margin-bottom: 1%;
+    border: 0px;
+    padding-left: 1%;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.successs{
+    font-family: 'Toyota Display';
+    color : #131718;
+    font-size: 16px;
+}

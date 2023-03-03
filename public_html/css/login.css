@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Toyota Display";
+    src: url('fonts/ToyotaDisplay_Rg.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Body */
+body{
+    text-align: center;
+    margin-bottom: 100px;
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button-login{
+    /* Button style */
+    width: 30%;
+    height: 44px;
+    background : rgba(19, 23, 24, 1);
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    margin-bottom: 10px;
+
+    /* Text style */
+    font-weight: bolder;
+    font-family : 'Toyota Display';
+    font-size : 16px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+}
+
+.button-login:hover{
+    background-color: rgba(19, 19, 19, 0.9);
+    cursor: pointer;
+}
+
+.button-login:active{
+    background-color: rgba(19, 19, 19, 0.8);
+    cursor: default;
+}
+.invalid-login{
+    font-weight: bolder;
+    font-family : 'Toyota Display';
+    font-size : 16px;
+}
+
+.input-login::placeholder{
+    color: rgb(51,51,51);
+}
+.input-login{
+    /* Text style */
+    font-weight: bolder;
+    font-size: 16px;
+    /* Input style */
+    width: 30%;
+    height: 44px;
+    background-color: transparent;
+    opacity : 0.85;
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    box-shadow: 4px 5px 10px #838383;
+    margin-bottom: 1%;
+    border: 0px;
+    padding-left: 1%;
+    box-sizing: border-box;
+    
+}
+
+/* Footer */
+footer{
+
+    /* Style footer */
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    
+    /* Position */
+    position: fixed;
+    bottom: 0;
+
+    /* Text */
+
+    /* Display */
+    display: flex;
+    align-items: center;
+
+}
+
+/* Text footer */
+.text-footer{
+    font-family : 'Toyota Display';
+    font-weight: bold;
+    font-size : 10px;
+    color : #ECECEC;
+    color : rgb(236, 236, 236);
+    margin: auto;
+}
+
+.a-footer{
+    color: rgb(28, 104, 165);
+    text-decoration: none;
+}
+

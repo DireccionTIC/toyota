@@ -1,0 +1,181 @@
+@font-face {
+    font-family: "Toyota Display";
+    src: url('fonts/ToyotaDisplay_Rg.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Toyota Display';
+    color : #131718;
+    color : rgb(19, 23, 24);
+    background-color: white;
+}
+
+/* Header */
+nav{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10%;
+}
+
+
+.Logo-Toyota{
+    width: 76px;
+    height: 76px;
+    display:inline;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+li{
+    display:inline;
+    margin-left: 10px;
+    padding-top: 5%;
+    font-weight: 500;
+    font-size: calc(0.5em + 0.8vw);
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.actived{
+    color: rgb(227,4,33);
+    font-weight: 1000;
+}
+
+/* Body */
+
+.body-report{
+    margin: 3% 10% 0% 10%;
+}
+
+h1{
+    font-size : 24px;
+    color : rgb(19, 23, 24);
+    font-weight: 1000;
+
+}
+
+.form-select{
+  background : rgba(255, 255, 255, 1);
+  opacity : 0.85;
+  border-radius : 13px;
+  -moz-border-radius : 13px;
+  -webkit-border-radius : 13px;
+
+  width: 30%;
+  height: 37px;
+  padding-left: 10px;
+  box-sizing: border-box;
+
+
+  box-shadow: 4px 5px 10px #838383;
+  margin-bottom: 0.2%;
+  margin-top: 2%;
+
+  border: none;
+  
+
+}
+
+.btn-report{
+    width: 163px;
+    height: 38px;
+    background : rgb(0,0,0);
+    border-radius : 13px;
+    -moz-border-radius : 13px;
+    -webkit-border-radius : 13px;
+    border: none;
+    margin-top: 7px;
+    box-shadow: 4px 5px 10px #838383;
+
+    color: rgb(255,255,255);
+    font-weight: bolder;
+}
+
+.btn-report:hover{
+    cursor: pointer;
+    background : rgba(0,0,0,0.8);
+}
+
+.btn-report:active{
+    background : rgba(0,0,0,0.6);
+}
+
+.export{
+    background: rgb(227,4,33);
+}
+
+.export:hover{
+    background: rgba(227,4,33,0.8);
+}
+
+.export:active{
+    background: rgba(227,4,33,0.6);
+}
+
+.form{
+    margin-bottom: 2%;
+}
+
+h4{
+    font-size : 18px;
+    font-weight: 1000;
+    margin-bottom: 2%;
+}
+
+.cupon{
+    margin-left: 2%;
+    margin-bottom: 1%;
+    min-width: 400px;
+}
+
+.fw-bold
+{
+    font-weight: 800;
+}
+
+.divs-data{
+    display: inline-block;
+    font-size: 14px;
+}
+
+.div-data{
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+hr{
+    height: 2px;
+    background: rgb(77,77,77);
+}
+
+.div-data-off{
+    margin-bottom: 1%;
+}
+
+h5{
+    font-size : 18px;
+    font-weight: 1000;
+    margin-bottom: 2%;
+}
+
+.section-cupon{
+    margin-top: 2%;
+}
+
+.user{
+    text-align: center;
+}
+
+.ms-4{
+    margin-bottom: 2%;
+}
